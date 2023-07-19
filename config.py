@@ -13,7 +13,7 @@ class Config(object):
     TOKEN = getenv("TOKEN", "")
     OWNER_ID = getenv("OWNER_ID", "")
     ASSISTANT_ID = getenv("ASSISTANT_ID", "")
-    STRING_SESSION = getenv("STRING_SESSION", "") #telethon
+    STRING_SESSION = getenv("STRING_SESSION", "1BVtsOJMBu0q79Nzy1rZuMTsyfJhixGcd-lc_UX62iTBUPv0HouG3uqQUESWZeXmyYIIp_Eby7Vyn8aDiPz4Bc73DknEpC67spnZe4qlqWBqOu6XcDaZ7UupuBOZOIe2Dg9Xh2R959mbI0qawatSCpTHdShKqu9UNSTOLwNOa4QfUI8O3aa-feGznC7NdRxXcnbppInZSdk1HAwVJkXzNM25nDcTbkL3nHDFGMsRF151Dmx9qlAGvxy55DwNNOkfLiNk5OJavBe4DJcj_ggi04h8KQTftLKGxUQmb5P72LIeZkvCckCO7CNzsk-7STo1hE7IhB8wcF9IduwB4spLQtPjnKggPnKI=") #telethon
     OWNER_USERNAME = getenv("OWNER_USERNAME", "")
     DB_URI = getenv("DATABASE_URL", "")
     DB_URI = DB_URI.replace("postgres", "postgresql")
@@ -42,7 +42,7 @@ class Config(object):
     CASH_API_KEY = getenv("CASH_API_KEY", "https://www.alphavantage.co/support/#api-key")
     TIME_API_KEY = getenv("TIME_API_KEY", "https://timezonedb.com/api")
     WALL_API = getenv("WALL_API", "https://wall.alphacoders.com/api.php")
-    spamwatch_api = getenv("spamwatch_api", "https://t.me/SpamWatchBot")
+    spamwatch_api = getenv("spamwatch_api", "hU4iXcahGamDQgwRuRqQm48nvEiuOYQ0fXZZyMIPUA1M2p7jpKIpVf~tnqxVXOTW")
     SPAMMERS = getenv("SPAMMERS", "")
     LASTFM_API_KEY = getenv("LASTFM_API_KEY", "https://www.last.fm/api/account/create")
     CF_API_KEY = getenv("CF_API_KEY", "coffehouse.intellivoid.net")
